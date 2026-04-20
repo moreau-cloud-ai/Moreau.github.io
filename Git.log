@@ -1,0 +1,122 @@
+2026-03-23 11:43:51.069 [info] [main] Nivel de registro: Info
+2026-03-23 11:43:51.069 [info] [main] Validando git encontrado en: "C:\Program Files\Git\cmd\git.exe"
+2026-03-23 11:43:51.069 [info] [main] Validando git encontrado en: "C:\Program Files (x86)\Git\cmd\git.exe"
+2026-03-23 11:43:51.069 [info] [main] Validando git encontrado en: "C:\Program Files\Git\cmd\git.exe"
+2026-03-23 11:43:51.069 [info] [main] Validando git encontrado en: "C:\Users\tibis\AppData\Local\Programs\Git\cmd\git.exe"
+2026-03-23 11:43:51.069 [warning] Unable to find git. Error: not found: git.exe
+2026-03-23 11:43:51.069 [warning] [main] Failed to create model: Error: Git installation not found.
+2026-03-23 12:44:44.511 [info] [main] Nivel de registro: Info
+2026-03-23 12:44:44.512 [info] [main] Validando git encontrado en: "C:\Program Files\Git\cmd\git.exe"
+2026-03-23 12:44:44.512 [info] [main] Validando git encontrado en: "C:\Program Files (x86)\Git\cmd\git.exe"
+2026-03-23 12:44:44.512 [info] [main] Validando git encontrado en: "C:\Program Files\Git\cmd\git.exe"
+2026-03-23 12:44:44.512 [info] [main] Validando git encontrado en: "C:\Users\tibis\AppData\Local\Programs\Git\cmd\git.exe"
+2026-03-23 12:44:44.512 [warning] Unable to find git. Error: not found: git.exe
+2026-03-23 12:44:44.512 [warning] [main] Failed to create model: Error: Git installation not found.
+2026-03-23 12:55:49.838 [info] [main] Nivel de registro: Info
+2026-03-23 12:55:49.838 [info] [main] Validando git encontrado en: "C:\Program Files\Git\cmd\git.exe"
+2026-03-23 12:55:50.529 [info] [main] Usando git "2.53.0.windows.2" de "C:\Program Files\Git\cmd\git.exe"
+2026-03-23 12:55:50.529 [info] [Model][doInitialScan] Initial repository scan started
+2026-03-23 12:55:50.909 [info] > git rev-parse --show-toplevel [333ms]
+2026-03-23 12:55:53.053 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [1156ms]
+2026-03-23 12:55:53.076 [info] [Model][openRepository] Opened repository (path): c:\Users\tibis\OneDrive\Imágenes\Saved Pictures
+2026-03-23 12:55:53.076 [info] [Model][openRepository] Opened repository (real path): c:\Users\tibis\OneDrive\Imágenes\Saved Pictures
+2026-03-23 12:55:53.076 [info] [Model][openRepository] Opened repository (kind): repository
+2026-03-23 12:55:53.486 [info] > git rev-parse --show-toplevel [388ms]
+2026-03-23 12:55:53.496 [info] > git config --get commit.template [401ms]
+2026-03-23 12:55:53.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/my-branch refs/remotes/my-branch [433ms]
+2026-03-23 12:55:53.840 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [284ms]
+2026-03-23 12:55:53.841 [info] > git rev-parse --show-toplevel [352ms]
+2026-03-23 12:55:53.943 [info] > git check-ignore -v -z --stdin [406ms]
+2026-03-23 12:55:54.087 [info] > git check-ignore -v -z --stdin [357ms]
+2026-03-23 12:55:54.226 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [380ms]
+2026-03-23 12:55:54.365 [info] [Model][openRepository] Opened repository (path): c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\FiraCode
+2026-03-23 12:55:54.365 [info] [Model][openRepository] Opened repository (real path): c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\FiraCode
+2026-03-23 12:55:54.365 [info] [Model][openRepository] Opened repository (kind): submodule
+2026-03-23 12:55:54.532 [info] > git status -z -uall [981ms]
+2026-03-23 12:55:55.239 [info] > git rev-parse --show-toplevel [790ms]
+2026-03-23 12:55:55.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [865ms]
+2026-03-23 12:55:55.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/my-branch refs/remotes/my-branch [767ms]
+2026-03-23 12:55:55.329 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open 'c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\FiraCode\.git\refs\remotes\origin\master'
+2026-03-23 12:55:55.419 [info] > git config --get commit.template [855ms]
+2026-03-23 12:55:55.452 [info] > git config --get commit.template [1005ms]
+2026-03-23 12:55:55.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/my-branch refs/remotes/my-branch [938ms]
+2026-03-23 12:55:55.546 [info] > git check-ignore -v -z --stdin [573ms]
+2026-03-23 12:55:55.609 [info] > git rev-parse refs/remotes/origin/master [281ms]
+2026-03-23 12:55:55.619 [info] > git rev-parse --show-toplevel [377ms]
+2026-03-23 12:55:55.677 [info] > git config --get --local branch.my-branch.vscode-merge-base [351ms]
+2026-03-23 12:55:55.807 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [295ms]
+2026-03-23 12:55:55.912 [info] > git status -z -uall [299ms]
+2026-03-23 12:55:55.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/my-branch refs/remotes/origin/my-branch [251ms]
+2026-03-23 12:55:55.955 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [337ms]
+2026-03-23 12:55:56.011 [info] > git status -z -uall [501ms]
+2026-03-23 12:55:56.131 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [508ms]
+2026-03-23 12:55:56.162 [info] [Model][openRepository] Opened repository (path): c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\test-repositorio
+2026-03-23 12:55:56.162 [info] [Model][openRepository] Opened repository (real path): c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\test-repositorio
+2026-03-23 12:55:56.162 [info] [Model][openRepository] Opened repository (kind): submodule
+2026-03-23 12:55:56.165 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-03-23 12:55:56.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [625ms]
+2026-03-23 12:55:56.671 [info] > git config --get commit.template [621ms]
+2026-03-23 12:55:56.687 [info] > git merge-base refs/heads/my-branch refs/remotes/origin/my-branch [734ms]
+2026-03-23 12:55:56.728 [info] > git merge-base refs/heads/my-branch refs/remotes/origin/my-branch [709ms]
+2026-03-23 12:55:56.761 [info] > git config --get commit.template [483ms]
+2026-03-23 12:55:56.762 [info] > git config --local -l [586ms]
+2026-03-23 12:55:56.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [723ms]
+2026-03-23 12:55:56.830 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open 'c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\FiraCode\.git\refs\remotes\origin\master'
+2026-03-23 12:55:56.898 [info] > git config --local -l [727ms]
+2026-03-23 12:55:56.941 [info] > git show --textconv :index pagina web.html [760ms]
+2026-03-23 12:55:57.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/my-branch refs/remotes/my-branch [669ms]
+2026-03-23 12:55:57.064 [info] > git ls-files --stage -- index pagina web.html [877ms]
+2026-03-23 12:55:57.076 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open 'c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\test-repositorio\.git\refs\remotes\origin\my-branch'
+2026-03-23 12:55:57.150 [info] > git config --get --local branch.master.vscode-merge-base [534ms]
+2026-03-23 12:55:57.201 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 3a07f4a72b046b8f8d6dd1172013399ece624a27...refs/remotes/origin/my-branch -- [510ms]
+2026-03-23 12:55:57.217 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 3a07f4a72b046b8f8d6dd1172013399ece624a27...refs/remotes/origin/my-branch -- [486ms]
+2026-03-23 12:55:57.241 [info] > git check-ignore -v -z --stdin [396ms]
+2026-03-23 12:55:57.270 [info] > git config --local -l [444ms]
+2026-03-23 12:55:57.276 [info] > git config --local -l [331ms]
+2026-03-23 12:55:57.328 [info] > git rev-parse refs/remotes/origin/master [498ms]
+2026-03-23 12:55:57.377 [info] > git cat-file -s c658046d232f0bb9a994cb17e348a358b1d222ce [306ms]
+2026-03-23 12:55:57.425 [info] > git rev-parse refs/remotes/origin/my-branch [349ms]
+2026-03-23 12:55:57.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/master refs/remotes/origin/master [345ms]
+2026-03-23 12:55:57.701 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [367ms]
+2026-03-23 12:55:57.703 [info] > git status -z -uall [372ms]
+2026-03-23 12:55:57.782 [info] > git check-ignore -v -z --stdin [382ms]
+2026-03-23 12:55:57.812 [info] > git blame --root --incremental 3a07f4a72b046b8f8d6dd1172013399ece624a27 -- index pagina web.html [395ms]
+2026-03-23 12:55:57.833 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [403ms]
+2026-03-23 12:55:57.885 [info] > git status -z -uall [457ms]
+2026-03-23 12:55:57.926 [info] > git merge-base refs/heads/master refs/remotes/origin/master [419ms]
+2026-03-23 12:55:58.100 [info] > git ls-tree -l HEAD -- index pagina web.html [306ms]
+2026-03-23 12:55:58.101 [info] > git merge-base refs/heads/master refs/remotes/origin/master [390ms]
+2026-03-23 12:55:58.273 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% e50b177465f32b2f439098c4fcf7451cf70adc6b...refs/remotes/origin/master -- [341ms]
+2026-03-23 12:55:58.290 [info] > git config --get commit.template [369ms]
+2026-03-23 12:55:58.290 [info] > git show --textconv HEAD:index pagina web.html [501ms]
+2026-03-23 12:55:58.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/my-branch refs/remotes/my-branch [369ms]
+2026-03-23 12:55:58.339 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open 'c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\test-repositorio\.git\refs\remotes\origin\my-branch'
+2026-03-23 12:55:58.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/my-branch refs/remotes/my-branch [442ms]
+2026-03-23 12:55:58.370 [info] > git config --local -l [478ms]
+2026-03-23 12:55:58.791 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% e50b177465f32b2f439098c4fcf7451cf70adc6b...refs/remotes/origin/master -- [686ms]
+2026-03-23 12:55:58.907 [info] > git rev-parse refs/remotes/origin/my-branch [568ms]
+2026-03-23 12:55:58.944 [info] > git config --get --local branch.my-branch.vscode-merge-base [601ms]
+2026-03-23 12:55:58.948 [info] > git config --local -l [545ms]
+2026-03-23 12:55:58.990 [info] > git config --local -l [588ms]
+2026-03-23 12:55:59.034 [info] > git config --local -l [619ms]
+2026-03-23 12:55:59.035 [info] > git config --local -l [629ms]
+2026-03-23 12:55:59.052 [info] > git config --local -l [642ms]
+2026-03-23 12:55:59.131 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [218ms]
+2026-03-23 12:55:59.132 [info] > git status -z -uall [223ms]
+2026-03-23 12:55:59.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/my-branch refs/remotes/origin/my-branch [202ms]
+2026-03-23 12:55:59.263 [info] > git merge-base refs/heads/my-branch refs/remotes/origin/my-branch [110ms]
+2026-03-23 12:55:59.285 [info] > git merge-base refs/heads/my-branch refs/remotes/origin/my-branch [128ms]
+2026-03-23 12:55:59.368 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 3a07f4a72b046b8f8d6dd1172013399ece624a27...refs/remotes/origin/my-branch -- [102ms]
+2026-03-23 12:55:59.380 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 3a07f4a72b046b8f8d6dd1172013399ece624a27...refs/remotes/origin/my-branch -- [92ms]
+2026-03-23 12:56:13.041 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1128ms]
+2026-03-23 12:56:13.170 [info] > git merge-base master origin/master [57ms]
+2026-03-23 12:56:21.659 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1071ms]
+2026-03-23 12:56:21.764 [info] > git merge-base master origin/master [66ms]
+2026-03-23 13:41:20.237 [info] > git check-ignore -v -z --stdin [110ms]
+2026-03-23 13:41:20.238 [info] > git check-ignore -v -z --stdin [108ms]
+2026-03-23 13:41:20.257 [info] > git check-ignore -v -z --stdin [133ms]
+2026-03-23 13:41:59.989 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n51 --shortstat --follow -- c:\Users\tibis\OneDrive\Imágenes\Saved Pictures\index pagina web.html [100ms]
+2026-03-23 13:42:00.094 [info] > git hash-object -t tree /dev/null [100ms]
+2026-03-23 13:46:37.655 [info] > git clone https://github.com/tibi35170-cloud/Moreau.github.io.git c:\Users\tibis\.vscode\Moreau.github.io --progress [1244ms]
+2026-03-23 13:46:37.655 [info] Cloning into 'c:\Users\tibis\.vscode\Moreau.github.io'...
+fatal: unable to access 'https://github.com/tibi35170-cloud/Moreau.github.io.git/': Could not resolve host: github.com
